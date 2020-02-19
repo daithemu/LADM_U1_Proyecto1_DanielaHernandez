@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/valor1"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_weight="1"
+        android:text="Valor:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/valor"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/pocision1"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_weight="1"
+        android:text="Posición en vector:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/posicion"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/asignar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Asignar" />
+
+        <Button
+            android:id="@+id/mostrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mostrar todos" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+        android:text="Vector"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nombreA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="escriba aqui nombre de archivo"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Guardar en memoria SD" />
+
+    <EditText
+        android:id="@+id/nombreAleer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="escriba aqui nombre de archivo "
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Leer desde memoria SD" />
+
+</LinearLayout>
